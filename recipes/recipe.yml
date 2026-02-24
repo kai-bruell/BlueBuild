@@ -29,22 +29,9 @@ modules:
         - zsh
         # terminal multiplexer
         - tmux
-        # GitHub CLI
-        - gh
         # dotfile manager
         - chezmoi
         # rootless containers / distros
         - distrobox
-        # OCR engine + language packs
-        - tesseract
-        - tesseract-langpack-deu
-        - tesseract-langpack-eng
-        # Wayland clipboard
-        - wl-clipboard
-        # Wayland screenshot tools
-        - grim
-        - slurp
-        # desktop notifications
-        - libnotify
 
   - type: signing # sets up policy & signing files for signed images
