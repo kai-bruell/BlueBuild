@@ -34,4 +34,11 @@ modules:
         # rootless containers / distros
         - distrobox
         - wf-recorder
+  - type: dnf
+    repos:
+      nonfree: rpmfusion
+    install:
+      packages:
+        - libva-intel-driver
+
   - type: signing # sets up policy & signing files for signed images
