@@ -33,5 +33,5 @@ modules:
         - chezmoi
         # rootless containers / distros
         - distrobox
-
+        - wf-recorder
   - type: signing # sets up policy & signing files for signed images
