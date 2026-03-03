@@ -34,6 +34,7 @@ modules:
         # rootless containers / distros
         - distrobox
         - wf-recorder
+        - libva-utils
   - type: dnf
     repos:
       nonfree: rpmfusion
