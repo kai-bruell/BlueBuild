@@ -35,6 +35,7 @@ modules:
         - distrobox
         - wf-recorder
         - libva-utils
+        - inotify-tools 
   - type: dnf
     repos:
       nonfree: rpmfusion
