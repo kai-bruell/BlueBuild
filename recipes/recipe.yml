@@ -36,11 +36,11 @@ modules:
         - wf-recorder
         - libva-utils
         - inotify-tools 
+        - mpv-libs
   - type: dnf
     repos:
       nonfree: rpmfusion
     install:
       packages:
-        - libva-intel-driver
-
+        - intel-media-driver
   - type: signing # sets up policy & signing files for signed images
