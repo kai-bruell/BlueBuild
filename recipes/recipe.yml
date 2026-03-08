@@ -36,6 +36,7 @@ modules:
         - wf-recorder
         - libva-utils
         - inotify-tools 
+        - flatpak-builder
   - type: dnf
     repos:
       nonfree: rpmfusion
