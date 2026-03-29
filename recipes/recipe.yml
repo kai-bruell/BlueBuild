@@ -37,6 +37,7 @@ modules:
         - libva-utils
         - inotify-tools 
         - flatpak-builder
+        - trash-cli
   - type: dnf
     repos:
       nonfree: rpmfusion
