@@ -38,6 +38,7 @@ modules:
         - inotify-tools 
         - flatpak-builder
         - trash-cli
+        - sshfs
   - type: dnf
     repos:
       nonfree: rpmfusion
